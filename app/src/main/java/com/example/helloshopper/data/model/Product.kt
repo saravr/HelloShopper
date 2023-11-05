@@ -1,15 +1,15 @@
 package com.example.helloshopper.data.model
 
 data class Product(
-    val brand: String,
-    val category: String,
-    val description: String,
-    val discountPercentage: Double,
     val id: Int,
-    val images: List<String>,
+    val title: String,
+    val description: String,
     val price: Int,
-    val rating: Double,
-    val stock: Int,
-    val thumbnail: String,
-    val title: String
+    val brand: String? = null,
+    val category: String? = null,
+    val discountPercentage: Double? = null,
+    val images: List<String>? = null,
+    val rating: Double? = null,
+    val stock: Int? = null,
+    val thumbnail: String? = null
 )

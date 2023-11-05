@@ -5,7 +5,7 @@ import com.example.helloshopper.data.model.ProductsResponse
 import retrofit2.http.GET
 
 interface ProductService {
-    @GET("/products?limit=20")
+    @GET("/products?limit=60")
     suspend fun getProducts(): ProductsResponse
 
     @GET("/product/{id}")
