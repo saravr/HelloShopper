@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HelloShopper</string>
+    <string name="products">Products</string>
+    <string name="product">Product</string>
+    <string name="account">Account</string>
 </resources>

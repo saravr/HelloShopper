@@ -21,4 +21,6 @@ class ProductViewModel @Inject constructor(private val productRepository: Produc
             _products.emit(products)
         }
     }
+
+    suspend fun getProduct(id: Int) = productRepository.getProduct(id)
 }
